@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+/*Gerais*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor01: #2B1821;
+    --cor02: #140B0F;
+    --cor03: #FD288D;
+}
+
+.interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+/*Cabeçalho*/
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    background-color: var(--cor01);
+    color: white;
+}
+
+
+
+header .imagem-cabecalho img{
+    width: 400px;
+    height: 500px;
+}
