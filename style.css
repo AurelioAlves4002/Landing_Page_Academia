@@ -31,11 +31,31 @@ body {
     background-color: var(--cor02);
 }
 
-/*Cabeçalho*/
+.btn button {
+    padding: 10px 40px;
+    font-size: 18px;
+    background-color: var(--cor03);
+    border-radius: 20px;
+    border: 0;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px #fd288b8d;
+}
+article.topo {
+    background-color: var(--cor01);
+    padding-bottom: 25px;
+}
+/*TOPO*/
 
 main .flex {
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 7%;
 }
 
 .texto-topo {
@@ -55,12 +75,43 @@ main .flex {
     padding: 2rem 0;
 }
 
+.texto-topo p {
+    padding-bottom: 20px;
+}
 
+.texto-topo .btn {
+    padding-left: 25%;
+}
 
 .img-topo {
-    align-items: center;
+    margin: auto 0;
 }
 
 .img-topo img {
     max-width: 40vh;
+    border-radius: 40px;
+}
+
+/*SOBRE*/
+
+article.sobre {
+    height: 500px;
+    background-image: url(imagens/imagen2.jpg);
+    background-size: cover;
+    padding-top: 180px;
+}
+
+article.sobre .texto-sobre {
+    text-align: center;
+    color: var(--cor03);
+    font-family: Poppins, sans-serif;
+}
+
+article.sobre .texto-sobre h2 {
+    padding: 20px 0px;
+    line-height: 1.5rem;
+}
+
+article.sobre .texto-sobre p {
+    line-height: 1rem;
 }
