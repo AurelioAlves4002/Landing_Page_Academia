@@ -46,7 +46,7 @@ body {
     transform: scale(1.05);
     box-shadow: 0px 0px 10px #fd288b8d;
 }
-article.topo {
+section.topo {
     background-color: var(--cor01);
     padding-bottom: 25px;
 }
@@ -94,24 +94,24 @@ main .flex {
 
 /*SOBRE*/
 
-article.sobre {
+section.sobre {
     height: 500px;
     background-image: url(imagens/imagen2.jpg);
     background-size: cover;
     padding-top: 180px;
 }
 
-article.sobre .texto-sobre {
+section.sobre .texto-sobre {
     text-align: center;
     color: var(--cor03);
     font-family: Poppins, sans-serif;
 }
 
-article.sobre .texto-sobre h2 {
+section.sobre .texto-sobre h2 {
     padding: 20px 0px;
     line-height: 1.5rem;
 }
 
-article.sobre .texto-sobre p {
+section.sobre .texto-sobre p {
     line-height: 1rem;
 }
