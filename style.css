@@ -29,6 +29,7 @@
 
 body {
     background-color: var(--cor02);
+    height: 100vh;
 }
 
 .btn button {
@@ -52,7 +53,11 @@ section.topo {
 }
 /*TOPO*/
 
-main .flex {
+section.topo {
+    padding: 40px 4%;
+}
+
+section.topo .flex {
     align-items: flex-start;
     justify-content: center;
     gap: 7%;
@@ -95,10 +100,10 @@ main .flex {
 /*SOBRE*/
 
 section.sobre {
-    height: 500px;
+    padding: 40px 4%;
     background-image: url(imagens/imagen2.jpg);
     background-size: cover;
-    padding-top: 180px;
+    height: 60vh;
 }
 
 section.sobre .texto-sobre {
@@ -114,4 +119,48 @@ section.sobre .texto-sobre h2 {
 
 section.sobre .texto-sobre p {
     line-height: 1rem;
+}
+
+/*RECURSOS*/
+
+section.recursos {
+    font-family: Poppins, sans-serif;
+    background-color: var(--cor01);
+    padding: 40px 4%;
+}
+
+section.recursos h2 {
+    text-align: center;
+    padding: 2rem 0;
+    color: var(--cor03);
+}
+
+section.recursos .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.recursos .card-recursos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.recursos .card-recursos i {
+    font-size: 4rem;
+    text-align: center;
+    padding: 15%;
+    width: 30vh;
+    border-radius: 50%;
+    color: white;
+    background-color: var(--cor03);
+}
+
+section.recursos .flex .card-recursos p {
+    color: var(--cor03);
+    margin: 30px 40px;
+    padding: 40px;
+    text-align: start;
+    border: 1px solid white;
+    border-radius: 30px;
 }
